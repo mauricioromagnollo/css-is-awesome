@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+:root {
+  --blue-color: #3498db;
+  --white-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.container {
+  text-align: center;
+  margin-top: 360px;
+}
+
+.btn {
+  border: 1px solid var(--blue-color);
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1, .btn2 {
+  color: var(--blue-color);
+}
+
+.btn3, .btn4 {
+  color: var(--white-color);
+}
+
+.btn1:hover, .btn2:hover {
+  color: var(--white-color);
+}
+
+.btn3:hover, .btn4:hover {
+  color: var(--blue-color);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: var(--blue-color);
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn1::before, .btn3::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn2::before, .btn4::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn3::before, .btn4::before {
+  height: 180%;
+}
+
+.btn1:hover::before, .btn2:hover::before {
+  height: 180%;
+}
+
+.btn3:hover::before, .btn4:hover::before {
+  height: 0%;
+}

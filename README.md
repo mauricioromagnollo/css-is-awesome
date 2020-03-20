@@ -14,7 +14,7 @@ Free repository for studying css techniques.
 
 ### My Logo Smoke
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/38081852/65581701-4e91c880-df52-11e9-896e-3a0426cd90ab.gif)
+![my-logo-smoke](https://user-images.githubusercontent.com/38081852/77210445-c7c43f80-6adf-11ea-84b9-d63539a0c26a.gif)
 <br>**[Code](./src/my-logo-smoke/)**
 
 ### Buttons Hover Awesome

@@ -1,27 +1,14 @@
-<h1 align="center">
-  CSS Styles
-</h1>
+<div align="center">
+  <img src='banner.png' width='200'>
+</div>
 
-Free repository for studying css techniques.
+> Repositório Open Source dedicado ao estudos sobre CSS e suas formas de utilizar.
 
----
-# Index
+#
 
-- [My Logo Smoke](#my-logo-smoke)
-- [Buttons Hover Awesome](#buttons-hover-awesome)
-- [Neon Button](#neon-button)
----
+- [css](./estudos/css) - Estudo sobre a base de CSS
+- [sass](./estudos/sass) - Estudo sobre SASS
+- [bootstrap](./estudos/bootstrap) - Estudo sobre Bootstrap
+- [css-styles](./css-styles) - Alguns exemplos de CSS aplicados com alguns componentes diferenciados
 
-### My Logo Smoke
-
-![my-logo-smoke](https://user-images.githubusercontent.com/38081852/77210445-c7c43f80-6adf-11ea-84b9-d63539a0c26a.gif)
-<br>**[Code](./src/my-logo-smoke/)**
-
-### Buttons Hover Awesome
-
-![buttons-hover-awesome](https://user-images.githubusercontent.com/38081852/77186870-54f09f80-6ab2-11ea-8353-c815b02bbcbb.gif)<br>**[Code](./src/buttons-hover-awesome/)**
-
-### Neon Button
-
-![neon-button](https://user-images.githubusercontent.com/38081852/77209538-44a1ea00-6add-11ea-80d9-02c1a93f76d5.gif)
-<br>**[Code](./src/neon-button/)**
+#
